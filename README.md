@@ -29,7 +29,7 @@ git clone https://github.com/emopudge/hh-vacancy-analysis.git
 cd hh-vacancy-analysis
 ```
 ### 2. Создание виртуального окружения
-```python -m venv venv```
+```python -m venv .venv```
 
 Активация окружения:
 
