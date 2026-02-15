@@ -26,7 +26,7 @@
 
 ```bash
 git clone https://github.com/emopudge/hh-vacancy-graphs
-cd hh-vacancy-analysis
+cd hh-vacancy-graphs
 ```
 ### 2. Создание виртуального окружения
 ```python -m venv .venv```
@@ -34,11 +34,11 @@ cd hh-vacancy-analysis
 Активация окружения:
 
 - Windows:
-```venv\Scripts\activate```
+```.venv\Scripts\activate```
 
 text
 - Linux/Mac:
-```source venv/bin/activate```
+```source .venv/bin/activate```
 
 ### 3. Установка зависимостей
 ```
