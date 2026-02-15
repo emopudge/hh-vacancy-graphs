@@ -25,8 +25,8 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/emopudge/hh-vacancy-analysis.git
-cd hh-vacancy-analysis
+git clone https://github.com/emopudge/hh-vacancy-graphs
+cd hh-vacancy-graphs
 ```
 ### 2. Создание виртуального окружения
 ```python -m venv .venv```
@@ -34,11 +34,11 @@ cd hh-vacancy-analysis
 Активация окружения:
 
 - Windows:
-```venv\Scripts\activate```
+```.venv\Scripts\activate```
 
 text
 - Linux/Mac:
-```source venv/bin/activate```
+```source .venv/bin/activate```
 
 ### 3. Установка зависимостей
 ```
@@ -80,15 +80,16 @@ python hh_data_collection.py
 
 ## Зависимости
 
-- Flask 2.3.2 - веб-фреймворк
-- Dash 2.14.0 - интерактивные дашборды
-- Pandas 2.0.3 - обработка данных
-- Plotly 5.15.0 - визуализация
-- NetworkX 3.1 - работа с графами
-- scikit-learn 1.3.0 - TF-IDF для извлечения ключевых слов
-- spaCy 3.6.1 - лемматизация русского текста
-- Requests 2.31.0 - HTTP запросы
-- Matplotlib 3.7.2 - вспомогательная визуализация
+- Numpy 2.2.4 - математика
+- Flask 2.3.3 - веб-фреймворк
+- Dash 2.18.2 - интерактивные дашборды
+- Pandas 2.2.3 - обработка данных
+- Plotly 6.0.1 - визуализация
+- NetworkX 3.4.2 - работа с графами
+- scikit-learn 1.6.1 - TF-IDF для извлечения ключевых слов
+- spaCy 3.8.4 - лемматизация русского текста
+- Requests 2.32.3 - HTTP запросы
+- Matplotlib 3.10.1 - вспомогательная визуализация
 
 ## Настройка параметров
 
