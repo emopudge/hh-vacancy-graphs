@@ -25,7 +25,7 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/yourusername/hh-vacancy-analysis.git
+git clone https://github.com/emopudge/hh-vacancy-analysis.git
 cd hh-vacancy-analysis
 ```
 ### 2. Создание виртуального окружения
